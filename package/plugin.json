@@ -3,7 +3,8 @@
   "preload": "index.js",
   "logo": "assets/logo.png",
   "platform": [
-    "darwin"
+    "darwin",
+    "win32"
   ],
   "features": [
     {
