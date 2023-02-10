@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "preload": "index.js",
+  "logo": "assets/logo.png",
+  "platform": [
+    "darwin"
+  ],
+  "features": [
+    {
+      "code": "repeater",
+      "explain": "复读机来啦",
+      "cmds": [
+        "repeater",
+        {
+          "type": "over",
+          "label": "开始复读",
+          "minLength": 1,
+          "maxLength": 1000
+        }
+      ]
+    }
+  ]
+}
